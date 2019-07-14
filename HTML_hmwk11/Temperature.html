@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Homework Assignment 11</title>
+  <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+            <div> 
+                <li class="navbar">
+                    <a href="landing_page.html" role="button" aria-haspopup="true" aria-expanded="false"><h3>Latitude</h3></a>
+                    <div class="topnav-right">
+                    <div class="dropdown">
+                        <div class="nav-link dropdown-toggle" data-toggle="dropdown">Plots                                            
+                        </div>
+                            <div class="dropdown-content" style="left:0;"> 
+                                    <a href="Cloud.html">Cloudiness</a>
+                                    <a href="Humidity.html">Humidity</a>
+                                    <a href="Temperature.html">Temperature</a>
+                                    <a href="Wind.html">Wind Speed</a>
+                            </div>
+                    </div>
+                        <a href="Comparison.html">Comparison</a>
+                        <a href="Data.html">Data</a>
+                </div>
+            </div>
+        
+        
+        <script src="" async defer></script>
+                    
+        <!-- creating a grid -->
+        <div class="container">
+            <!-- row 1 -->
+            <div class="row">
+                <div class="col-xs-2 col-sm-4 col-md-8">
+                    <div class="box b1">
+                        <h1>Temperature</h1>
+                        <hr class="my-4">
+                        <!-- row 2 --> 
+                        <div class="row">
+                                <div class="col-sm-2 col-md-4">
+                                    <img src="Lat_vs_Temp.png" height="360" width="630" alt="Temperature Plot" />
+                                </div>
+                        </div>
+                        <!-- row 3 -->
+                        <div class="row">
+                                <div class="col-xs-3 col-sm-6 col-md-12">
+                                    <div>
+                                        <h6>Temperature vs. Latitude:</h6>
+                                    </div>
+                                    <div>
+                                        <h5>As predicted, maximum temperatures rise as one approaches the equator (0&#176; latitude). Interestingly while temperatures nearer the equator exhibit similar maximums on either side, between ~15-40&#176; north latitude there are a exists a band of significantly higher temperatures relative to similar latitudes in the southern hemisphere.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-4">
+                    <div class="box b2">
+                        <h2>Visualizations</h2>
+                        <hr class="my-4">
+                        <!-- row 2 --> 
+                        <div class="row">
+                            <div class="col-sm-3 col-md-6">
+                                <img class="resize" src="Lat_vs_Temp.png" height="150" width="170"/>
+                            </div>
+                            <div class="col-sm-3 col-md-6">
+                                <img class="resize" src="Lat_vs_Humid.png" height="150" width="170"/>
+                            </div>
+                        </div>
+                        <!-- row 3 --> 
+                        <div class="row">
+                                <div class="col-sm-3 col-md-6">
+                                    <img class="resize" src="Lat_vs_Cloud.png" height="150" width="170"/>
+                                </div>
+                                <div class="col-sm-3 col-md-6">
+                                    <img class="resize" src="Lat_vs_Wind.png" height="150" width="170"/>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my">
+    <div class="box b3">
+    </div>
+    <div class="box b4">
+        <p><h4 style="text-align:center;"> (C) Copyright Coding Bootcamp 2019</h4></p>
+    </div>
+    </body>
+</html>
