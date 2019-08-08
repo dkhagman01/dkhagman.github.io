@@ -1,0 +1,175 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    border-style: double;
+    color: grey;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+  
+/* Right-aligned section inside the top navigation */
+ .topnav-right {
+    float: right;
+  }
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: grey;
+    padding: 0px 10px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #05bfa3;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: float; /* should be absolute not float */
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* background color for entire page */
+  body {
+    background: #d3cbcb;
+  }
+  /* left table title */
+  h1 {
+    font-size: 35px;
+    color: #05bfa3;
+  }
+  /* right table title */
+  h2 {
+    font-size: 25px;
+  }
+  /* navbar left side label*/
+  h3 {
+    font-size: 30px;
+    background: #05bfa3;
+    width: 150px;
+    height: 70px;
+    padding: 12px;
+    border: 30px;
+    color: white;
+  }
+  /* copyright text at bottom */
+  h4 {
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+  }
+  /* text formating inside the left box */
+  h5 {
+    font-size: 15px;
+    color: black;
+    padding: 0px;
+  }
+  /* underline visualization headers */
+  h6 {
+    font-size: 15px;
+    text-decoration: underline;
+    padding: 5px;
+  }
+  
+ 
+ 
+
+
+  /* image in left box */
+  img.resize {
+    max-width:150%;
+    max-height:250%;
+  }
+  /* left side box of landing page */
+  .b1 {
+    height: 600px;
+    width: 700px;
+    padding: 15px;
+    background: #fff;
+    margin: 20px;
+  }
+  /* right side box on landing page */
+  .b2 {
+    height: 550px;
+    width: 400px;
+    padding: 30px;
+    color: #05bfa3;
+    background: #fff;
+    margin: 20px;
+  }
+  /* blue line at bottom of page */
+  .b3 {
+    height: 5px;
+    width: 1500px;
+    padding: px;
+    background: #05bfa3;
+    margin: 0px;
+  }
+  /* colored box at bottom of page */
+  .b4 {
+    height: 100px;
+    width: 1500px;
+    padding: 5px;
+    background: #555454;
+    margin: 0px;
+  }
+  /* comparison page */
+  .b5 {
+    height: 650px;
+    width: 1200px;
+    padding: 5px;
+    background: #fff;
+    margin: 10px;
+  }
+  /* comparison page */
+  .b6 {
+    height: 16000px;
+    width: 1000px;
+    padding: 50px;
+    background: #fff;
+    margin: 10px;
+  }
